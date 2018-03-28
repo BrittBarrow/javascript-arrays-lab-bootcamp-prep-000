@@ -29,10 +29,10 @@ function prependKitten(Arnold) {
 }
 
 function removeLastKitten() {
-  var lesskittens = kittens.slice(3)
-  return lesskittens;
+  var lesskittens = 
 }
 
 function removeFirstKitten() {
-  kittens.slice(1);
+  var lesskittens = kittens.slice(1)
+  return lesskittens;
 }
