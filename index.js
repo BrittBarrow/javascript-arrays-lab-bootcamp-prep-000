@@ -31,3 +31,7 @@ function prependKitten(Arnold) {
 function removeLastKitten() {
   var moreKittens = kittens.pop()
 }
+
+function removeFirstKitten() {
+  kittens = kittens.slice(1)
+}
